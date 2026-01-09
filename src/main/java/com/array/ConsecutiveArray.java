@@ -7,7 +7,7 @@ package com.array;
 
 public class ConsecutiveArray {
 
-    public static boolean checkConsecutiveArray(int arr[]){
+    public static boolean checkConsecutiveArray(int[] arr){
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
 
@@ -42,7 +42,7 @@ public class ConsecutiveArray {
     }
 
     public static void main(String[] args) {
-        int arr[] = {76,78,76,77,73,74};
+        int[] arr = {76,78,76,77,73,74};
         System.out.println(checkConsecutiveArray(arr));
     }
 }
